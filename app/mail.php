@@ -12,12 +12,12 @@ $phone = $_POST['phone'];
 $mail->isSMTP();        
 $mail->Host = 'smtp.mail.ru';  								
 $mail->SMTPAuth = true;         
-$mail->Username = 'dzharuzov@mail.ru'; 
-$mail->Password = '$dk820&123'; 
+$mail->Username = 'vov.shevtsov@inbox.ru'; 
+$mail->Password = 'vU}YYiRpyy31'; 
 $mail->SMTPSecure = 'ssl';                
 $mail->Port = 465; 
 
-$mail->setFrom('dzharuzov@mail.ru'); 
+$mail->setFrom('vov.shevtsov@inbox.ru'); 
 $mail->addAddress('order@salesgenerator.pro');     
 $mail->isHTML(true);    
 
